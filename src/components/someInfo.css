@@ -1,0 +1,38 @@
+*{
+    color: black;
+}
+
+
+.someInfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.someInfoContainer h1{
+    font-size: 36px; 
+    font-weight: extra-bold;
+    color: #152937;
+}
+
+.boxesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.boxContainer{
+
+}
+
+.infoBox{
+    height: 150px;
+    width: 150px;
+    border: 5px solid rgb(63, 102, 208);
+    border-radius: 10px;
+}
+
+.boxText{
+    width: 150px;
+}

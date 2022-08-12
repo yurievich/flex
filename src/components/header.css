@@ -1,0 +1,99 @@
+/* HEADER */
+
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 35%; */
+    background-color: #1F2937;
+    width: 100%;
+    color: #E5E7EB;
+}
+
+.headerChild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+}
+.headerNav {
+    justify-content: end;
+
+}
+
+.headerNav h1{
+    font-size: 24px; 
+    color: #F9FAF8;
+}
+
+.moveItem{
+    flex: 0 1 100%;
+    
+}
+
+.navItem {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #E5E7EB;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.headerChild2{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1 1;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.pageIntro {
+    flex-wrap: wrap;
+    flex: 1 1 0px;
+    padding-left: 5px;
+}
+
+.pageIntro h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.pageIntro p {
+    font-size: 18px; 
+    color: #E5E7EB;
+}
+
+.imagePlaceholder {
+    flex: 1 1 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(229, 231, 235, 0.3);
+    color: E5E7EB;
+    border-radius: 2px;
+    margin-left: 55px;
+    
+}
+
+.signInBtn{
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: whitesmoke;
+    height: 35px;
+    width: 100px;
+    font-size: medium;
+}
+
+.imagePlaceholderText {
+    color: #E5E7EB;
+}
+
+
+/* SOME RANDOM INFO SECTION */
+
+
